@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login here</title>
+    <style>
+        body{
+            background-color: yellowgreen;
+            
+        }
+    </style>
+    <link rel="stylesheet" href="..\style1.css"/>
 </head>
-<body>
+<body style="color:red">
     <h1>login here</h1>
+    <form method="post" action="/login" >
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter user name"/><br>
+     <label for ="name">Email</label>
+     <input type="text" name="name" placeholder="Enter user email"/><br>
+     <label for="pass"> Password</label>
+     <input type="password" name="pass" placeholder="enter the password"/><br>
+     <input type="submit" value="Login"/>
+     <input type="submit" value="reset"/>
+    </form>
 </body>
 </html>
