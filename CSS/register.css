@@ -1,0 +1,44 @@
+.form{
+    background-color: rgba(209, 209, 40, 0.649);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-left:15px;
+    margin-right: 15px;
+}
+#select-gender{
+    flex-direction: row;
+}
+#select-button{
+flex-direction: row;
+margin-left: 25px;
+gap: 50px;
+
+}
+
+
+input,select{
+    border-radius: 5px;
+}
+
+#con{
+    width: 350px;
+    height: 500px;
+    background-color: aqua;
+    
+}
+#register{
+    border-radius: 5px;
+    background-color: green;
+}
+#reset{
+    background-color: red;
+    border-radius: 5px;
+    
+}
