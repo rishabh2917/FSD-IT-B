@@ -1,0 +1,24 @@
+{
+  "name": "fsd-it-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/rishabh2917/FSD_IT_B.git"
+  },
+  "keywords": ["Reactjs"],
+  "author": "Rishabh Agnihotri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabh2917/FSD_IT_B/issues"
+  },
+  "homepage": "https://github.com/rishabh2917/FSD_IT_B#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

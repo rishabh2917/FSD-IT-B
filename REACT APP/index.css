@@ -1,0 +1,9 @@
+.card {
+  background-color: gold;
+  color: blue;
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
